@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Signup Page -->
+    <div id="signup" class="page">
+        <div class="form-container">
+            <h2>Sign Up</h2>
+            <input type="text" id="signup-name" placeholder="Enter your name" required>
+            <input type="email" id="signup-email" placeholder="Enter your email" required>
+            <input type="password" id="signup-password" placeholder="Enter your password" required>
+            <button id="signup-btn" class="submit">Sign Up</button>
+            <p>Already have an account? <span id="show-login" class="link">Log In</span></p>
+        </div>
+    </div>
+
+    <!-- Login Page -->
+    <div id="login" class="page hidden">
+        <div class="form-container">
+            <h2>Login</h2>
+            <input type="email" id="login-email" placeholder="Enter your email" required>
+            <input type="password" id="login-password" placeholder="Enter your password" required>
+            <button id="login-btn" class="submit">Login</button>
+            <p>Don't have an account? <span id="show-signup" class="link">Sign Up</span></p>
+        </div>
+    </div>
+    <script src="test.js"></script>
+</body>
+</html>
